@@ -42,6 +42,7 @@ import android.content.res.ThemeConfig;
 import android.content.res.Resources;
 import android.content.ServiceConnection;
 import android.database.ContentObserver;
+import android.graphics.PixelFormat;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
