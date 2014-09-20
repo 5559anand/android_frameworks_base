@@ -433,6 +433,12 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
             } catch (RemoteException ex) { }
         }
     };
+    
+        if (mRecreating) {
+        } else {
+            addActiveDisplayView();
+        }
+
 
     class SettingsObserver extends ContentObserver {
         SettingsObserver(Handler handler) {
