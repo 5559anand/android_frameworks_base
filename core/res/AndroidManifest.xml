@@ -2407,6 +2407,12 @@
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="signature|system" />
 
+     <!-- Internal permission protecting access to internal notification listener
+        @hide
+    -->
+    <permission android:name="android.permission.SYSTEM_NOTIFICATION_LISTENER"
+        android:protectionLevel="signature|system" />
+        
     <!-- Allows applications to read dream settings and dream state.
          @hide -->
     <permission android:name="android.permission.READ_DREAM_STATE"
